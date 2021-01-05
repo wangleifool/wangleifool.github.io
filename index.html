@@ -97,7 +97,7 @@
 <h2 id="准备环境"><a href="#准备环境" class="headerlink" title="准备环境"></a>准备环境</h2><p>准备 node 和 git 环境，<br>首先，安装 <a target="_blank" rel="noopener" href="https://nodejs.org/en/">NodeJS</a>，因为 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 是基于 Node.js 驱动的一款博客框架，相比起前面提到过的 Jekyll 框架更快更简洁，因为天*朝网络被墙的原因尝试过安装 Jekyll 失败而放弃了。<br>然后，安装 <a target="_blank" rel="noopener" href="https://git-scm.com/">git</a>，一个分布式版本控制系统，用于项目的版本控制管理，作者是 Linux 之父。如果 Git 还不熟悉可以参考廖雪峰大神的 <a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">Git</a> 教程。</p>
 <p>两个工具不同的平台安装方法有所不一样，可自行了解按步骤安装，这里不详述了。安装成功后打开git bash（Windowns）或者终端（Mac），下方中将统一称为命令行。<br>在命令行中输入相应命令验证是否成功，如果成功会有相应的版本号。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-<p><img src="https://segmentfault.com/img/remote/1460000017990237" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuv8xmu5j30g907dgm0.jpg" alt="image"></p>
 <h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>如果以上环境准备好了就可以使用 npm 开始安装 Hexo 了。也可查看 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 的详细文档。<br>在命令行输入执行以下命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p>安装 Hexo 完成后，再执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。</p>
@@ -107,28 +107,27 @@
 <p>好了，如果上面的命令都没报错的话，就恭喜了，运行 hexo s 命令，其中 s 是 server 的缩写，在浏览器中输入 <a target="_blank" rel="noopener" href="http://localhost/">http://localhost</a>:4000 回车就可以预览效果了。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>以下是我本地的预览效果，更换了 next 主题的，默认不是这个主题。</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990238" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuvg58rmj30m80agq3s.jpg" alt="image"></p>
 <p>至此，你本地的博客就已经搭建成功，接下来就是部署到 Github Page 了。</p>
 <h2 id="注册-Github"><a href="#注册-Github" class="headerlink" title="注册 Github"></a>注册 Github</h2><p>首先如果你还没有 Github 账号的先<a target="_blank" rel="noopener" href="https://github.com/">注册</a>一个，具体过程如下</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990239" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuvnaq84j30ir0m8jxv.jpg" alt="image"></p>
 <p>点击 Start project 或者下面的 new repository 创建一个新的仓库</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990240?w=1028&h=620" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuvv6ko7j30m80de76d.jpg" alt="image"></p>
 <p>注意点来了，Github 仅能使用一个同名仓库的代码托管一个静态站点，这个网上很多教程没说到的。</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990241?w=747&h=623" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuvzu80hj30kr0hbtbb.jpg" alt="image"></p>
 <p>然后打开仓库创建一个 index.html 文件，并随意先写点内容，比如 Hello World.</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990242" alt="image"><br><img src="https://segmentfault.com/img/remote/1460000017990243?w=497&h=226" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuw8samzj30m80b50u1.jpg" alt="image"><br><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuwfq2zxj30dt06adg5.jpg" alt="image"></p>
 <p>这个时候打开 <a target="_blank" rel="noopener" href="http://你的用户名.github.io/">http://你的用户名.github.io</a> 就可以看到你的站点啦，是不是很简单！index.html 内容只是暂时的预览效果，后面把 Hexo 的文件部署上去就可以在 <a target="_blank" rel="noopener" href="http://你的用户名.github.io/">http://你的用户名.github.io</a> 看到你自己的博客啦！ 比如我的就是 <a target="_blank" rel="noopener" href="http://webw3c.github.io/">http://webw3c.github.io</a> 了。</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990244" alt="image"></p>
 <h2 id="配置-SSH-key"><a href="#配置-SSH-key" class="headerlink" title="配置 SSH key"></a>配置 SSH key</h2><p>要使用 git 工具首先要配置一下SSH key，为部署本地博客到 Github 做准备。</p>
 <p>打开命令行输入 cd ~/.ssh 如果没报错或者提示什么的说明就是以前生成过的，直接使用 cat ~/.ssh/id_rsa.pub 命令就是可以查看本机上的 SSH key 了。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~&#x2F;.ssh&#x2F;id_rsa.pub</span><br></pre></td></tr></table></figure>
-<p><img src="https://segmentfault.com/img/remote/1460000017990245" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcuwpypksj30fr03jt9j.jpg" alt="image"></p>
 <p>如果之前没有创建，则执行以下命令全局配置一下本地账户：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;邮箱地址&quot;</span><br></pre></td></tr></table></figure>
 <p>然后开始生成密钥 SSH key</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &#39;上面的邮箱&#39;</span><br></pre></td></tr></table></figure>
 <p>按照提示完成三次回车，即可生成 ssh key。通过查看 ~/.ssh/id_rsa.pub 文件内容，获取到你的 SSH key</p>
-<p><img src="https://segmentfault.com/img/remote/1460000017990246?w=683&h=383" alt="image"></p>
+<p><img src="https://tva1.sinaimg.cn/large/0081Kckwgy1gmcux1cep2j30iz0anady.jpg" alt="image"></p>
 <p>（此图引用自码云）</p>
 <p>首次使用还需要确认并添加主机到本机SSH可信列表。若返回 Hi xxx! You’ve successfully authenticated, but GitHub does not provide shell access. 内容，则证明添加成功。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com </span><br></pre></td></tr></table></figure>
@@ -154,7 +153,7 @@
 <p>就可以看到你的文章在博客显示了，以下就是刚刚</p>
 <p><img src="https://segmentfault.com/img/remote/1460000017990252" alt="image"></p>
 <p>最后，只要部署到你的 Github 上就可以了！</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
 <p>部署前最好能先执行一下 hexo clean 命令，清除缓存文件 (db.json) 和已生成的静态文件 (public)。在某些情况（尤其是更换主题后），如果发现您对站点的更改无论如何也不生效，您可能需要运行该命令。</p>
 <p>另外，如果你的文章暂时不发布可以先保存在草稿里面。生成草稿的方法和文章差不多 hexo new draft “文章标题”，生成后会在 /source/_drafts 里看到你的草稿文章。当你想发布时只要执行 publish 命令即可发布到博客。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
@@ -261,7 +260,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/05/Hexo-Github-Page/" data-id="ckjjob0lg00012lge4g7gbah0" data-title="Hexo + Github Page" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/05/Hexo-Github-Page/" data-id="ckjjoj7il0001algeg76n6vk7" data-title="Hexo + Github Page" class="article-share-link">Share</a>
       
       
       
@@ -310,7 +309,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/05/hello-world/" data-id="ckjjob0l600002lgecvnig8vj" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/01/05/hello-world/" data-id="ckjjoj7i90000algebj0k81vu" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
