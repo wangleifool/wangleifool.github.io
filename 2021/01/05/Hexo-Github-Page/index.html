@@ -4,15 +4,64 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>Hexo + Github Page | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="前言本文是转载自鱼先生的文章，目的为了记录使用hexo和github page搭建免费的博客系统。 准备环境准备 node 和 git 环境，首先，安装 NodeJS，因为 Hexo 是基于 Node.js 驱动的一款博客框架，相比起前面提到过的 Jekyll 框架更快更简洁，因为天*朝网络被墙的原因尝试过安装 Jekyll 失败而放弃了。然后，安装 git，一个分布式版本控制系统，用于项目的版本">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo + Github Page">
+<meta property="og:url" content="http://example.com/2021/01/05/Hexo-Github-Page/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前言本文是转载自鱼先生的文章，目的为了记录使用hexo和github page搭建免费的博客系统。 准备环境准备 node 和 git 环境，首先，安装 NodeJS，因为 Hexo 是基于 Node.js 驱动的一款博客框架，相比起前面提到过的 Jekyll 框架更快更简洁，因为天*朝网络被墙的原因尝试过安装 Jekyll 失败而放弃了。然后，安装 git，一个分布式版本控制系统，用于项目的版本">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990237">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990238">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990239">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990240?w=1028&h=620">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990241?w=747&h=623">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990242">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990243?w=497&h=226">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990244">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990245">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990246?w=683&h=383">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990247?w=566&h=52">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990248">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990249?w=1019&h=441">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990250">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990251?w=1526&h=437">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990252">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990253?w=860&h=600">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990254">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990255?w=1279&h=514">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990256?w=1319&h=457">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990257?w=1919&h=977">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990258">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990259">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990260">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990261?w=1920&h=543">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990262?w=1868&h=497">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990263">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990264">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990265?w=1069&h=364">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990266?w=968&h=193">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990267?w=1859&h=925">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990268">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990269?w=900&h=205">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990270?w=1154&h=357">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990271">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990272?w=1015&h=758">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990273">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990274?w=948&h=140">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990275?w=1318&h=923">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990276">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990277">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990278?w=1920&h=465">
+<meta property="og:image" content="https://segmentfault.com/img/remote/1460000017990279">
+<meta property="article:published_time" content="2021-01-05T07:14:48.000Z">
+<meta property="article:modified_time" content="2021-01-05T07:26:56.512Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://segmentfault.com/img/remote/1460000017990237">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -69,9 +118,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Hexo-Github-Page" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-Hexo-Github-Page" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2021/01/05/Hexo-Github-Page/" class="article-date">
   <time class="dt-published" datetime="2021-01-05T07:14:48.000Z" itemprop="datePublished">2021-01-05</time>
@@ -84,8 +131,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/05/Hexo-Github-Page/">Hexo + Github Page</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Hexo + Github Page
     </h1>
   
 
@@ -270,58 +317,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/01/05/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2021-01-05T06:42:07.859Z" itemprop="datePublished">2021-01-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/01/05/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2021/01/05/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/01/05/hello-world/" data-id="ckjjob0l600002lgecvnig8vj" data-title="Hello World" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
